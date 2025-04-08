@@ -2,8 +2,6 @@
 
 Cartoonopia is a full-stack web application built for COMP5347/COMP4347 Assignment 2 at the University of Sydney. Developed as a group project for the company *Datalytics*, the app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.
 
----
-
 ## 📚 Features
 
 ### 🖥️ Frontend
@@ -27,8 +25,6 @@ Cartoonopia is a full-stack web application built for COMP5347/COMP4347 Assignme
 - JWT-based access control
 - Role-based access: Admin vs Regular User
 
----
-
 ## ⚙️ Tech Stack
 
 | Layer         | Technology                         |
@@ -40,7 +36,6 @@ Cartoonopia is a full-stack web application built for COMP5347/COMP4347 Assignme
 | Others        | JWT, Bcrypt, Axios, Lodash          |
 | Project Tool  | Nx Monorepo                         |
 
----
 
 ## 📁 Project Structure
 
@@ -128,24 +123,3 @@ getJsonObject("data.json", successCallback, errorCallback);
 - All JSON data and images are referenced with **relative paths**
 - Previous comparisons are stored **locally in browser**
 - Frontend and backend are **decoupled** and communicate via REST API
-
----
-
-## 👥 Team Members
-
-- [Your Name] – Frontend logic & design
-- [Teammate] – Backend APIs & DB schema
-- [Teammate] – Authentication, admin panels
-- [Teammate] – Contributions & approvals module
-
----
-
-## 📌 Academic Integrity Acknowledgement
-
-This project is completed in accordance with the University of Sydney's Academic Integrity Policy. Any AI assistance used (e.g. code formatting or README generation) is disclosed and integrated responsibly.
-
----
-
-## 📃 License
-
-This project is for educational use only.
