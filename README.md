@@ -54,7 +54,6 @@ root/
         │   └── api/ (API calls to backend)
 ```
 
----
 
 ## 🚀 Getting Started
 
@@ -87,7 +86,6 @@ npm run dev
 
 > Accessible at `http://localhost:5173`
 
----
 
 ## 🧪 Test Local JSON Loading (for A1)
 
@@ -106,7 +104,6 @@ Use the provided function:
 getJsonObject("data.json", successCallback, errorCallback);
 ```
 
----
 
 ## 👤 User Roles
 
@@ -114,7 +111,6 @@ getJsonObject("data.json", successCallback, errorCallback);
 - **Regular users:** Can add/edit characters (pending admin approval)
 - **Admins:** Can approve/reject contributions, delete characters, manage users
 
----
 
 ## 📓 Notes for Marker
 
