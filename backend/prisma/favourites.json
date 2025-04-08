@@ -1,0 +1,10 @@
+[
+	{
+		"user_id": {"_id":{"$oid":"5f5237a4c1beb1523fa3da02"}},
+		"characters": ["superman"]
+	},
+	{
+		"user_id": {"_id":{"$oid":"5f5237a4c1beb1523fa3da18"}},
+		"characters": ["batman", "spiderman"]	
+	}
+]

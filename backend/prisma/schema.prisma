@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+enum ContributionStatus{
+  Pending
+  Approved
+  Rejected
+  Cancelled
+}
+enum ContributionActions{
+  AddCharacter
+  EditCharacter
+  DeleteCharacter
+}
+
+
+model User {
+  id        String   @id @map("_id") @default(auto()) @db.ObjectId
+  firstname String
+  lastname  String
+  email     String   @unique
+  password  String
+
+  @@map("userlist")
+}
+
+model FavoriteCharacters {
+  id          String   @id @map("_id") @default(auto()) @db.ObjectId
+  user_id     Json      @unique
+  characters  String[]
+
+  @@map("favourites")
+}
+
+model Contribution {
+  fakeId              String    @id @map("_id") @default(auto()) @db.ObjectId
+  contribution_id String       @unique 
+  user_id         Json    
+  action          ContributionActions
+  status          ContributionStatus
+  reviewed_by     Json?
+  date            String
+  data            Json
+  old_data        Json?
+  new_data        Json?
+  @@map("contributions") 
+}
+
+model Character {
+  fakeId           String   @id @map("_id") @default(auto()) @db.ObjectId
+  idName       String   @unique @map("id")
+  active       Boolean
+  name         String
+  subtitle     String
+  description  String
+  image_url    String  
+  strength     Int
+  speed        Int
+  skill        Int
+  fear_factor  Int
+  power        Int
+  intelligence Int
+  wealth       Int
+
+  @@map("characters")
+}
+
+model Admin {
+  id   String   @id @map("_id") @db.ObjectId
+  @@map("adminlist")
+}
+
+

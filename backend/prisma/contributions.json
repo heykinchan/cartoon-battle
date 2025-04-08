@@ -1,0 +1,47 @@
+[
+	{
+		"contribution_id": "1",
+		"user_id": {"_id":{"$oid":"5f5237a4c1beb1523fa3da02"}},
+		"action": "AddCharacter",
+		"status": "Approved",
+		"reviewed_by": {"_id":{"$oid":"5f5237a4c1beb1523fa3da02"}},
+		"date": "2020-09-05T00:00:00Z",
+		"data": {
+			"id": "test",
+			"name": "Test Character",
+			"subtitle": "Test Subtitle",
+			"description": "Test Description",
+			"image_url": "https://via.placeholder.com/150",
+			"strength": 50,
+			"speed": 50,
+			"skill": 50,
+			"fear_factor": 50,
+			"power": 50,
+			"intelligence": 50,
+			"wealth": 50
+		}
+	},
+	{
+		"contribution_id": "2",
+		"user_id": {"_id":{"$oid":"5f5237a4c1beb1523fa3da18"}},
+		"action": "EditCharacter",
+		"status": "Pending",
+		"reviewed_by": null,
+		"date": "2021-09-05T00:00:00Z",
+		"data": {
+			"id": "batman",
+			"subtitle": "The Caped Crusader"
+		}	
+	},
+	{
+		"contribution_id": "3",
+		"user_id": {"_id":{"$oid":"5f5237a4c1beb1523fa3da02"}},
+		"action": "DeleteCharacter",
+		"status": "Rejected",
+		"reviewed_by": {"_id":{"$oid":"5f5237a4c1beb1523fa3da02"}},
+		"date": "2020-09-05T00:00:00Z",
+		"data": {
+			"id": "superman"
+		}
+	}
+]
