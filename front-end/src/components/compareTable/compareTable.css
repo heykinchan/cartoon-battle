@@ -1,0 +1,44 @@
+.compare-table-container .ant-spin-container{
+    width: 50vw;
+    
+}
+.compare-table-container .ant-table {
+    border-collapse: separate; 
+    margin: 20px; 
+    pointer-events: none;
+}
+
+.compare-table-container .ant-table-thead > tr > th,
+.compare-table-container .ant-table-tbody > tr > td {
+    border: none !important;  /* Removes borders */
+    padding: 8px 16px;  /* Adjust padding as needed */
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.compare-table-container.winner1 .ant-table-tbody > tr > td:nth-child(1) {
+    background-color: #067406; /* Character 1 wins */
+}
+
+.compare-table-container.winner2 .ant-table-tbody > tr > td:nth-child(3) {
+    background-color: #067406; /* Character 2 wins */
+}
+
+.compare-table-container.winner1 .ant-table-tbody > tr > td:nth-child(3) {
+    background-color: rgb(187, 1, 1); /* Character 2 loses */
+}
+
+.compare-table-container.winner2 .ant-table-tbody > tr > td:nth-child(1) {
+    background-color: rgb(187, 1, 1); /* Character 1 loses */
+}
+
+.compare-table-container .ant-table-tbody > tr > td:nth-child(2) {
+    background-color: black ;
+    color: white;
+}
+
+
+

@@ -1,0 +1,39 @@
+.profile-favourite-characters{
+    width: 90%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    overflow: auto;
+    height: auto;
+}
+.profile-comparison-history{
+    width: 90%;
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+        height: 25vh;
+        overflow: auto;
+       
+}
+.profile-layout-content{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+.profile-contribution-status{
+    width: 90%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+    height: auto;
+    overflow: auto;
+}
+.profile-title-container{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.profile-title-container h1{
+    color: white;
+    font-size: 70px;
+    margin: 10px;
+}

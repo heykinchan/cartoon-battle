@@ -1,0 +1,16 @@
+.table-container{
+    margin: 30px;
+
+    width: 60%;
+}
+
+.table-body{
+    margin-top: 10px;
+    background-color: transparent !important;
+
+}
+
+.add-character{
+    margin-top: 10px;
+    text-align: right;
+}

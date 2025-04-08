@@ -1,0 +1,26 @@
+.close-button{
+    position: absolute;
+    right: 16px; 
+    top: 16px;    
+}
+
+.character-detail-modal{
+    position: relative;
+}
+
+.model-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .like-button{
+    margin-top: 10px;
+    color: #000;
+  }
+  .dislike-button{
+    margin-top: 10px;
+    color: red;
+  }
+
+  .anticon-heart {
+        font-size: 40px !important; /* or any size you want */
+  }

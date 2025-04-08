@@ -1,0 +1,12 @@
+
+
+.profile-compare-history-item .ant-list-item{
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center; 
+    
+
+}
+.profile-compare-history-item{
+    pointer-events: none;
+}

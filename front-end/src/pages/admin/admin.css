@@ -1,0 +1,40 @@
+.admin-title-container{
+    height: 20%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.admin-title-container h1{
+    color: white;
+    font-size: 70px;
+    margin: 10px;
+}
+.admin-table-card-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+
+}
+.admin-table-card{
+    width: 90%;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+.admin-table-container{
+    display: flex;
+    justify-content: center;
+}
+.admin-table-title{
+
+    font-size: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+}
+

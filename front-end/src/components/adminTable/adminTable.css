@@ -1,0 +1,8 @@
+.add-admin-container{
+    display: flex;
+    justify-content: center;
+
+}
+.add-admin-button{
+    margin-left: 10px;
+}

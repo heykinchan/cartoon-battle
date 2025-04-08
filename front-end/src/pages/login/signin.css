@@ -1,0 +1,23 @@
+.signin-form-container {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.signin-form-card{
+    width: 300px;
+}
+.signin-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.reset-btn{
+    margin-left: 30px;
+}
+.link-to-signup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

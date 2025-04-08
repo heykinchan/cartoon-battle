@@ -1,0 +1,11 @@
+.history-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.new-history-table{
+    margin-left: 10px;
+}
+.history-container-table{
+    width: 50%;
+}

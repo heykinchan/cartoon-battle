@@ -1,0 +1,68 @@
+.fliters-item{
+    margin-bottom: 0;
+}
+
+.ant-slider-track {
+    background-color: black !important
+  }
+
+.ant-slider-handle:hover:after {
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.88) !important;
+
+}
+
+.ant-slider-handle::after {
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.88) !important;
+
+}
+
+.apply-characters{
+    display: flex;
+    justify-content: space-evenly;
+}
+.filters-card{
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.avatar-container{
+    
+    background-color: black;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.avatar{
+    z-index: 3;
+    background-color: white;
+    margin: 20px;
+}
+.avatar-container-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+.ava-name{
+    color: white;
+    font-size: 30px;
+
+}
+
+.compare-table-container{
+    display: flex;
+    justify-content: center;
+}
+
+.previous-card{
+
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.filter-table-container{
+    justify-content: space-around;
+}
+
+.filter-table-container{
+    display: flex;
+    flex-flow: nowrap;
+}
