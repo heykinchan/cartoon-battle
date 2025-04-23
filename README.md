@@ -1,6 +1,6 @@
 # 🎨 Cartoonopia Web Application
 
-Cartoonopia is a full-stack web application built for COMP5347/COMP4347 Assignment 2 at the University of Sydney. Developed as a group project for the company *Datalytics*, the app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.
+Cartoonopia is a full-stack web application. The app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.
 
 ## 📚 Features
 
