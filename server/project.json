@@ -1,5 +1,5 @@
 {
-  "name": "comp5347-2024-l8-g4-a2",
+  "name": "server",
   "$schema": "node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "src",
   "projectType": "application",
