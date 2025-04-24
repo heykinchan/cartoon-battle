@@ -1,9 +1,18 @@
 # 🎨 Cartoonopia Web Application
 
-Cartoonopia is a full-stack web application. The app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.!
+Cartoonopia is a full-stack web application. The app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.
 
-[Web Desktop](https://github.com/user-attachments/assets/2b4989db-d2d0-4ca5-99dc-a44a055886e0)
+---
 
+### Desktop View
+![desktop](images/Web-Desktop.jpg)
+
+---
+
+### Mobile View
+![mobile](images/Web-Mobile.jpg)
+
+---
 
 ## 📚 Features
 
@@ -28,6 +37,8 @@ Cartoonopia is a full-stack web application. The app functions as an online alma
 - JWT-based access control
 - Role-based access: Admin vs Regular User
 
+--- 
+
 ## ⚙️ Tech Stack
 
 | Layer         | Technology                         |
@@ -39,6 +50,7 @@ Cartoonopia is a full-stack web application. The app functions as an online alma
 | Others        | JWT, Bcrypt, Axios, Lodash          |
 | Project Tool  | Nx Monorepo                         |
 
+---
 
 ## 📁 Project Structure
 
@@ -57,6 +69,7 @@ root/
         │   └── api/ (API calls to backend)
 ```
 
+---
 
 ## 🚀 Getting Started
 
@@ -89,8 +102,9 @@ npm run dev
 
 > Accessible at `http://localhost:5173`
 
+---
 
-## 🧪 Test Local JSON Loading (for A1)
+## 🧪 Test Local JSON Loading 
 
 To test local frontend JSON data (e.g., during Stage 1):
 
@@ -107,6 +121,7 @@ Use the provided function:
 getJsonObject("data.json", successCallback, errorCallback);
 ```
 
+---
 
 ## 👤 User Roles
 
@@ -114,8 +129,9 @@ getJsonObject("data.json", successCallback, errorCallback);
 - **Regular users:** Can add/edit characters (pending admin approval)
 - **Admins:** Can approve/reject contributions, delete characters, manage users
 
+---
 
-## 📓 Notes for Marker
+## 📓 Other Notes
 
 - Please ensure `.env` is configured for backend with a valid MongoDB URI
 - The project uses **Nx** to manage backend services (`npm run start` uses Nx serve)
