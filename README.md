@@ -1,6 +1,9 @@
 # 🎨 Cartoonopia Web Application
 
-Cartoonopia is a full-stack web application. The app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.
+Cartoonopia is a full-stack web application. The app functions as an online almanac of cartoon characters. Users can search, compare, edit, and contribute to the database of characters, with an approval system to manage content quality and integrity.!
+
+[Web Desktop](https://github.com/user-attachments/assets/2b4989db-d2d0-4ca5-99dc-a44a055886e0)
+
 
 ## 📚 Features
 
